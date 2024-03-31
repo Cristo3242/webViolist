@@ -1,0 +1,101 @@
+body {
+
+    background-color: black;
+    padding: 10px;
+    background: linear-gradient(to right, #aa2a31, #002a6d);
+    animation: gradientAnimation 10s linear infinite;
+
+}
+
+footer {
+    color: black;
+}
+
+p {
+    font-family: "Arial Black";
+}
+
+h2 {
+    color: black;
+    text-shadow: 0 0 6px white;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: linear-gradient(to right, #666666, #002a6d);;
+}
+
+/*Estilos para etiquetas*/
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/*Estilos para campos de entrada*/
+input[type="text"]
+input[type="email"]
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*Estilo para el botón de enviar*/
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos para el botón de enviar al pasar el ratón*/
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+section {
+    display: inline-block;
+    width: calc(100% - 70px);
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(65, 105, 225, 1);
+    border-radius: 20px;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.8), 0 0 60px rgba(0, 0, 0, 0.8);
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+table {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: white;
+}
